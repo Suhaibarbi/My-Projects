@@ -1,4 +1,5 @@
 infile = open('Encrypted.txt','r')
+infile.close()
 textToDecrypt = infile.read()
 # textToDecrypt = input("String to Decrypt")
 lst2 , b =[] , ""
